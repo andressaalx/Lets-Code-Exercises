@@ -1,12 +1,11 @@
-let numOr1 = n => isNaN(n) ? 1 : n;
-let numOr0 = n => isNaN(n) ? 0 : n;
-let operations = new Map();
-let countOperations = 0;
-
 let calculadora = (() => {
+  
+  let numOr1 = n => isNaN(n) ? 1 : n;
+  let numOr0 = n => isNaN(n) ? 0 : n;
+  let operations = new Map();
+  let countOperations = 0;
 
   let _calculadora = [];
-
 
   const enterCalc = (value) => {
     return _calculadora;
